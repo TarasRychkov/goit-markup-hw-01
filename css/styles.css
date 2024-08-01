@@ -1,0 +1,263 @@
+:root {
+    --text-main-color: #2E2F42;
+    --text-secondary-color: #434455;
+    --text-white-color: #FFFFFF;
+    --text-footer-color: #F4F4FD;
+    --text-logo-blue-color: #4D5AE5;
+    --text-logo-ligt-color: #F4F4FD;
+    --text-logo-dark-color: #2E2F42;
+    --text-hover-link-blue: #404BBF;
+    --text-button-color: #4D5AE5;
+    --text-button-white-color: #FFFFFF;
+
+    --bg-color: #FFFFFF;
+    --bg-dark-color: #2E2F42;
+    --bg-ligt-grey-color: #F4F4FD;
+
+    --bg-btn-hero: #4D5AE5;
+    --bg-btn-hover: #404BBF;
+
+    --bg-btn-filtres: #F4F4FD;
+    --bg-btn-hover-filtres: #404BBF;
+
+    --border-color-filtres-btn: #E7E9FC;
+}
+
+
+/* Common stules */
+
+body {  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-main-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.section {
+    background-color: var(--bg-color);
+}
+
+/* Logo */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-logo-blue-color);
+}
+
+.logo-header {
+    color: var(--text-logo-dark-color);
+}
+
+.logo-footer {
+    color: var(--text-logo-ligt-color);
+}
+
+/* Section-title */
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Header */
+
+.header {}
+
+.header-nav {}
+
+.header-nav-list {}
+
+.header-nav-item {}
+
+.header-nav-link {
+    color: var(--text-main-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--text-hover-link-blue);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {
+    font-weight: 400;
+    color: var(--text-secondary-color);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: var(--text-hover-link-blue);
+}
+
+/* Main */
+
+.main {}
+
+/* Hero section */
+
+.hero {
+    background-color: var(--bg-dark-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--text-white-color);
+}
+
+.hero-button {
+    letter-spacing: 0.04em;
+    color: var(--text-white-color);
+    background-color: var(--bg-btn-hero);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--bg-btn-hover);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* Features section */
+
+.features {}
+
+.features-title {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+    font-weight:500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.features-text {
+    font-weight: 400;
+    color: var(--text-secondary-color);
+}
+
+/* What are we doing section */
+
+.work {}
+
+.work-list {}
+
+.work-item {}
+
+.work-image {}
+
+/* Our Team section */
+
+.team {
+    background-color: var(--bg-ligt-grey-color);
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-image {}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team-text {
+    font-weight: 400;
+    text-align: center;
+    color: var(--text-secondary-color);
+}
+
+/* Footer section */
+
+.footer {
+    background-color: var(--bg-dark-color);
+}
+
+.footer-text {
+    font-weight: 400;
+    color: var(--text-footer-color);
+}
+
+
+/* Portfolio */
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-filtr-list {}
+
+.portfolio-filtr-item {}
+
+.portfolio-button {
+    letter-spacing: 0.04em;
+    color: var(--text-button-color);
+    background-color: var(--bg-btn-filtres);
+    border: 1px solid var(--border-color-filtres-btn);
+    border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--text-button-white-color);
+    background-color: var(--bg-btn-hover-filtres);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.portfolio-prject-list {}
+
+.portfolio-project-item {}
+
+.portfolio-project-image {}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    color: var(--text-secondary-color);
+}
